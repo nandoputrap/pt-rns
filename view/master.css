@@ -35,8 +35,19 @@ li{
 .col-md-4{
   padding: 30px;
 }
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
 /*===END BAGIAN GENERAL===*/
 
+
+/*
+
+INDEX.PHP
+
+*/
 
 /*===BEGIN BAGIAN NAVIGASI===*/
 /*Nama PT*/
@@ -62,6 +73,7 @@ li{
   background-color: white;
   border: transparent;
   padding: 15px 15px 0 15px;
+  box-shadow: 1px 1px 5px #bebebe; /*mulai dari kirinya - jauh bayangannya - tingkat blurnya*/
 }
 /*===END BAGIAN NAVIGASI===*/
 
@@ -112,7 +124,7 @@ li{
 }
 
 .content-sekilas-about{
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 .img-sekilas-about>img{
@@ -133,7 +145,7 @@ li{
 
 /*===BEGIN BAGIAN SERVICES===*/
 .bg-services{
-  background-color: #ebebeb;
+  background-color: #ecf0f1;
   padding-top: 30px;
 }
 
@@ -154,8 +166,9 @@ li{
 
 /*===BEGIN BAGIAN FOOTER===*/
 .bg-footer{
-  background-color: #2f2f2f;
-  color: #dedddd;
+  background-color: #bdc3c7;
+  color: black;
+  width: 100%;
 }
 
 .kontak{
@@ -176,3 +189,289 @@ li{
   height: 100%;
 }
 /*===END BAGIAN FOOTER===*/
+
+
+/*
+
+ADMINISTRASI.PHP
+
+*/
+
+/*BEGIN CONTENT-ADMINISTRASI*/
+.bg-administrasi{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  min-height: 750px;
+  min-width: 100%;
+}
+
+.content-administrasi{
+  min-width: 400px;
+  margin: 0 30%;
+  border: solid 3px #f4766e;
+}
+.title-administrasi{
+  padding: 10px;
+  background-color: #f4766e;
+  color: white;
+}
+
+.login-administrasi{
+  padding: 50px 70px;
+}
+
+.login-administrasi>img{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.input-administrasi{
+  margin-bottom: 10px;
+}
+
+.btn-rns{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #2ecc71;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 35% 20px 35%;
+}
+
+.btn-rns:hover{
+  background-color: #27ae60;
+}
+/*END CONTENT-ADMINISTRASI*/
+
+/*
+
+GALERI.PHP
+
+*/
+
+/*BEGIN GALERI*/
+.bg-galeri{
+  padding: 200px 0;
+  min-height: 750px;
+}
+
+.content-galeri{
+  margin: 30px 0;
+}
+
+.img-galeri>img{
+  width: 100%;
+  height: 100%;
+}
+
+.bg-galeri>.container>hr{
+  margin: 30px 45% 0 45%;
+}
+/*END GALERI*/
+
+/*
+
+TENTANG.PHP
+
+*/
+
+/*BEGIN TENTANG*/
+.bg-tentang{
+  min-height: 450px;
+}
+
+.content-tentang{
+  color: rgba(47, 47, 47, 0.8);
+}
+
+.tentang{
+  padding: 200px 0;
+  background-color: #f4766e;
+}
+
+#tentang-title{
+  color: #2f2f2f;
+}
+
+.def-tentang{
+  padding: 30px 20px;
+  font-size: 18px;
+}
+
+/*organisasi*/
+.organisasi{
+  padding: 100px 0;
+}
+
+.content-organisasi>hr{
+  margin: 30px 45%;
+}
+
+.avatar>img{
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  margin-left: 10px;
+}
+/*END TENTANG*/
+
+/*
+
+ADMIN.PHP
+
+*/
+/*BEGIN ADMIN*/
+.bg-admin{
+  padding-top: 150px;
+  min-height: 750px;
+}
+
+.box-admin{
+  border: solid 4px #f4766e;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 120px 0;
+
+}
+
+.box-admin>a{
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #636363;
+}
+
+.box-admin>a:hover{
+  color: black;
+}
+
+.content-admin>.col-md-4{
+  margin: 50px 0;
+}
+
+.fa-admin{
+  color: #636363;
+}
+
+.fa-admin:hover{
+  color: #4a4747;
+}
+
+.box-admin>center>i{
+  font-size: 100px;
+  margin-bottom: 50px;
+  /*margin: 0 38%;*/
+}
+
+.col-md-4>i:hover{
+  color: #ed4a40;
+}
+
+/*END ADMIN*/
+
+/*
+
+ADMIN-DATA-KARYAWAN.PHP
+
+*/
+/*BEGIN ADMIN-DATA-KARYAWAN*/
+.bg-admin-data-karyawan{
+  padding-top: 200px;
+  min-height: 750px;
+}
+
+.table-data-karyawan{
+  margin-top: 50px;
+}
+
+/*END ADMIN-DATA-KARYAWAN*/
+
+/*BEGIN ADMIN-GAJI-KARYAWAN*/
+.bg-admin-gaji-karyawan{
+  padding-top: 200px;
+  min-height: 750px;
+}
+
+.table-gaji-karyawan{
+  margin-top: 50px;
+}
+
+.column-title{
+  background-color: #f4766e;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*END ADMIN-GAJI-KARYAWAN*/
+
+/*
+
+ADMINISTRASI GAJI KARYAWAN.PHP
+
+*/
+
+/*BEGIN ADMINISTRASI GAJI KARYAWAN*/
+.bg-administrasi-gaji-karyawan{
+  padding: 200px 0;
+  min-height: 750px;
+}
+
+.panels-administrasi-gaji-karyawan{
+  margin-top: 70px;
+}
+
+.panel-default > .panel-heading{
+  background-color: #f4766e;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.panel-identitas-karyawan{
+  margin: 10px 15px 30px 15px;
+}
+
+
+.panel-karyawan-2> .panel-heading-total-pendapatan{
+  border-radius: 0;
+  background-color: #2ecc71;
+  margin-bottom: 0;
+}
+
+.btn-cetak{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #ed4a40;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 45% 20px 45%;
+  font-size: 18px;
+}
+
+.btn-cetak:hover{
+  background-color: #f4766e;
+}
+
+
+/*END ADMINISTRASI GAJI KARYAWAN*/
+
+/*
+
+UPDATE.PHP
+
+*/
+
+/*BEGIN UPDATE.PHP*/
+.bg-update{
+  padding: 200px 0;
+  min-height: 750px;
+}
+
+.hr-update{
+  margin: 30px 30%;
+}
+
+.form-update{
+  margin: 0 30%;
+}
+/*END UPDATE.PHP*/
